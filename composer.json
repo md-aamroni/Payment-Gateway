@@ -1,0 +1,21 @@
+{
+    "name": "adecoder/payment-gateway",
+    "description": "Simply integrate different payment gateway in PHP application",
+    "type": "library",
+    "require": {
+        "stripe/stripe-php": "^7.107"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adecoder\\PaymentGateway\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "md-aamroni",
+            "email": "md.aamroni@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
